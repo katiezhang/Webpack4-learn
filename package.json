@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/katiezhang/Webpack4-learn#readme",
   "devDependencies": {
+    "autoprefixer": "^9.4.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
@@ -26,6 +27,7 @@
     "css-loader": "^1.0.1",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.10.0",
+    "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.25.1",

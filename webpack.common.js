@@ -15,7 +15,11 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,   // 正则匹配以.css结尾的文件
-                use: ['style-loader', 'css-loader']  // 需要用的loader，一定是这个顺序，因为调用loader是从右往左编译的
+                use: [            
+                    {loader: 'style-loader'}, // 这里采用的是对象配置loader的写法
+                    {loader: 'css-loader'},
+                    {loader: 'postcss-loader'} // 使用postcss-loader
+                ]
             },
             {
                 test: /\.(scss|sass)$/,   // 正则匹配以.scss和.sass结尾的文件
