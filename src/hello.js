@@ -8,7 +8,7 @@
 // hello.js  --- react
 import React, {Component} from 'react'; // 这两个模块必须引入
 
-let name = Alan;
+let name = "Alan kkk";
 
 export default class Hello extends Component{
     render() {
